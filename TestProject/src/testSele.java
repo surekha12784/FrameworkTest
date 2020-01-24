@@ -15,6 +15,8 @@ public class testSele {
 		String s=driver.getTitle();
 		
 		System.out.println(s);
+		
+		System.out.println("new commit");
 	}
 
 }
