@@ -16,7 +16,7 @@ public class testSele {
 		
 		System.out.println(s);
 		
-		System.out.println("new commit");
+		System.out.println("new Test commit");
 	}
 
 }
