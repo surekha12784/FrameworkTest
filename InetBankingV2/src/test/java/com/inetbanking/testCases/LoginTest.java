@@ -1,9 +1,8 @@
 package com.inetbanking.testCases;
 
-import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+
+
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -16,22 +15,30 @@ public class LoginTest extends BaseClass {
 	@Test
 	public void LoginTest1() {
 
-		driver.get(baseurl);
+		driver.get(baseurl1);
 		LoginPage lp = new LoginPage(driver);
+			
+		logger.info("entered url");
 		lp.setusername(username1);
+		logger.info("entered username");
 		lp.setpassword(password1);
+		logger.info("entered password");
 		lp.LoginButton();
+		logger.info("Login button clicked successfully");
 		WebDriverWait w = new WebDriverWait(driver, 25);
 
 		w.until(ExpectedConditions
 				.titleContains("Guru99 Bank Manager HomePage"));
-		driver.manage().timeouts().implicitlyWait(1000, TimeUnit.MILLISECONDS);
+		
 
 		String title = driver.getTitle();
+		
 
 		System.out.println("Title:=" + title);
 
 		Assert.assertTrue(title.equals("Guru99 Bank Manager HomePage"));
+		
+		logger.info("our assertion successfully passed");
 
 	}
 

@@ -1,0 +1,101 @@
+2020-01-26 15:25:23 INFO  IBanking:20 - entered url
+2020-01-26 15:25:24 INFO  IBanking:22 - entered username
+2020-01-26 15:25:24 INFO  IBanking:24 - entered password
+2020-01-26 15:25:25 INFO  IBanking:26 - Login button clicked successfully
+2020-01-26 15:25:25 INFO  IBanking:40 - our assertion successfully passed
+2020-01-26 17:16:34 INFO  IBanking:20 - entered url
+2020-01-26 17:16:34 INFO  IBanking:22 - entered username
+2020-01-26 17:16:34 INFO  IBanking:24 - entered password
+2020-01-26 17:16:34 INFO  IBanking:26 - Login button clicked successfully
+2020-01-26 17:18:27 INFO  IBanking:20 - entered url
+2020-01-26 17:18:27 INFO  IBanking:22 - entered username
+2020-01-26 17:18:28 INFO  IBanking:24 - entered password
+2020-01-26 17:18:28 INFO  IBanking:26 - Login button clicked successfully
+2020-01-26 17:53:42 INFO  IBanking:20 - entered url
+2020-01-26 17:53:42 INFO  IBanking:22 - entered username
+2020-01-26 17:53:42 INFO  IBanking:24 - entered password
+2020-01-26 17:53:43 INFO  IBanking:26 - Login button clicked successfully
+2020-01-27 12:39:50 INFO  IBanking:20 - entered url
+2020-01-27 12:39:52 INFO  IBanking:22 - entered username
+2020-01-27 12:39:53 INFO  IBanking:24 - entered password
+2020-01-27 12:39:54 INFO  IBanking:26 - Login button clicked successfully
+2020-01-27 13:45:22 INFO  IBanking:23 - entered url
+2020-01-27 13:45:23 INFO  IBanking:25 - entered username
+2020-01-27 13:45:23 INFO  IBanking:27 - entered password
+2020-01-27 13:45:24 INFO  IBanking:29 - Login button clicked successfully
+2020-01-27 13:45:24 INFO  IBanking:43 - our assertion successfully passed
+2020-01-27 13:47:15 INFO  IBanking:23 - entered url
+2020-01-27 13:47:15 INFO  IBanking:25 - entered username
+2020-01-27 13:47:15 INFO  IBanking:27 - entered password
+2020-01-27 13:47:16 INFO  IBanking:29 - Login button clicked successfully
+2020-01-27 13:47:16 INFO  IBanking:43 - our assertion successfully passed
+2020-01-27 13:48:03 INFO  IBanking:21 - entered url
+2020-01-27 13:48:03 INFO  IBanking:23 - entered username
+2020-01-27 13:48:03 INFO  IBanking:25 - entered password
+2020-01-27 13:48:04 INFO  IBanking:27 - Login button clicked successfully
+2020-01-27 13:48:04 INFO  IBanking:41 - our assertion successfully passed
+2020-01-27 14:12:26 INFO  IBanking:21 - entered url
+2020-01-27 14:12:26 INFO  IBanking:23 - entered username
+2020-01-27 14:12:26 INFO  IBanking:25 - entered password
+2020-01-27 14:12:27 INFO  IBanking:27 - Login button clicked successfully
+2020-01-27 14:12:27 INFO  IBanking:41 - our assertion successfully passed
+2020-01-28 13:17:30 INFO  IBanking:23 - username set successfully
+2020-01-28 13:17:31 INFO  IBanking:26 - Login button clicked successfully
+2020-01-28 13:17:32 INFO  IBanking:23 - username set successfully
+2020-01-28 13:17:33 INFO  IBanking:26 - Login button clicked successfully
+2020-01-28 13:17:34 INFO  IBanking:23 - username set successfully
+2020-01-28 13:17:34 INFO  IBanking:26 - Login button clicked successfully
+2020-01-28 13:22:51 INFO  IBanking:23 - username set successfully
+2020-01-28 13:22:52 INFO  IBanking:26 - Login button clicked successfully
+2020-01-28 13:22:53 INFO  IBanking:23 - username set successfully
+2020-01-28 13:22:54 INFO  IBanking:26 - Login button clicked successfully
+2020-01-28 13:22:55 INFO  IBanking:23 - username set successfully
+2020-01-28 13:22:56 INFO  IBanking:26 - Login button clicked successfully
+2020-01-28 13:29:49 INFO  IBanking:24 - username set successfully
+2020-01-28 13:29:50 INFO  IBanking:27 - Login button clicked successfully
+2020-01-28 13:29:51 INFO  IBanking:24 - username set successfully
+2020-01-28 13:29:51 INFO  IBanking:27 - Login button clicked successfully
+2020-01-28 13:29:53 INFO  IBanking:24 - username set successfully
+2020-01-28 13:29:53 INFO  IBanking:27 - Login button clicked successfully
+2020-01-28 13:34:44 INFO  IBanking:24 - username set successfully
+2020-01-28 13:34:45 INFO  IBanking:27 - Login button clicked successfully
+2020-01-28 13:34:46 INFO  IBanking:24 - username set successfully
+2020-01-28 13:34:47 INFO  IBanking:27 - Login button clicked successfully
+2020-01-28 13:34:48 INFO  IBanking:24 - username set successfully
+2020-01-28 13:34:48 INFO  IBanking:27 - Login button clicked successfully
+2020-01-28 13:36:22 INFO  IBanking:26 - username set successfully
+2020-01-28 13:36:23 INFO  IBanking:29 - Login button clicked successfully
+2020-01-28 13:36:25 INFO  IBanking:26 - username set successfully
+2020-01-28 13:36:26 INFO  IBanking:29 - Login button clicked successfully
+2020-01-28 13:36:27 INFO  IBanking:26 - username set successfully
+2020-01-28 13:36:27 INFO  IBanking:29 - Login button clicked successfully
+2020-01-28 13:40:48 INFO  IBanking:26 - username set successfully
+2020-01-28 13:40:49 INFO  IBanking:29 - Login button clicked successfully
+2020-01-28 13:40:50 INFO  IBanking:26 - username set successfully
+2020-01-28 13:40:51 INFO  IBanking:29 - Login button clicked successfully
+2020-01-28 13:40:52 INFO  IBanking:26 - username set successfully
+2020-01-28 13:40:53 INFO  IBanking:29 - Login button clicked successfully
+2020-01-28 13:45:16 INFO  IBanking:26 - username set successfully
+2020-01-28 13:45:17 INFO  IBanking:29 - Login button clicked successfully
+2020-01-28 13:45:19 INFO  IBanking:26 - username set successfully
+2020-01-28 13:45:19 INFO  IBanking:29 - Login button clicked successfully
+2020-01-28 13:45:20 INFO  IBanking:26 - username set successfully
+2020-01-28 13:45:21 INFO  IBanking:29 - Login button clicked successfully
+2020-01-28 13:46:05 INFO  IBanking:26 - username set successfully
+2020-01-28 13:46:06 INFO  IBanking:29 - Login button clicked successfully
+2020-01-28 13:46:07 INFO  IBanking:26 - username set successfully
+2020-01-28 13:46:07 INFO  IBanking:29 - Login button clicked successfully
+2020-01-28 13:46:08 INFO  IBanking:26 - username set successfully
+2020-01-28 13:46:08 INFO  IBanking:29 - Login button clicked successfully
+2020-01-28 13:49:44 INFO  IBanking:24 - username set successfully
+2020-01-28 13:49:45 INFO  IBanking:27 - Login button clicked successfully
+2020-01-28 13:49:46 INFO  IBanking:24 - username set successfully
+2020-01-28 13:49:46 INFO  IBanking:27 - Login button clicked successfully
+2020-01-28 13:49:48 INFO  IBanking:24 - username set successfully
+2020-01-28 13:49:48 INFO  IBanking:27 - Login button clicked successfully
+2020-01-28 14:33:13 INFO  IBanking:24 - username set successfully
+2020-01-28 14:33:14 INFO  IBanking:27 - Login button clicked successfully
+2020-01-28 14:33:15 INFO  IBanking:24 - username set successfully
+2020-01-28 14:33:15 INFO  IBanking:27 - Login button clicked successfully
+2020-01-28 14:33:16 INFO  IBanking:24 - username set successfully
+2020-01-28 14:33:16 INFO  IBanking:27 - Login button clicked successfully

@@ -1,0 +1,5 @@
+2020-01-26 15:16:40 INFO  IBanking:20 - entered url
+2020-01-26 15:16:41 INFO  IBanking:22 - entered username
+2020-01-26 15:16:41 INFO  IBanking:24 - entered password
+2020-01-26 15:16:42 INFO  IBanking:26 - Login button clicked successfully
+2020-01-26 15:16:42 INFO  IBanking:40 - our assertion successfully passed
