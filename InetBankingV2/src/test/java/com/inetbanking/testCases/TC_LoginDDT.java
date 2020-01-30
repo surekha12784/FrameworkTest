@@ -30,6 +30,7 @@ public class TC_LoginDDT extends BaseClass {
 				.titleContains("Guru99 Bank Manager HomePage"));
 		String s = driver.getTitle();
 		System.out.println(s);
+		
 
 	}
 
