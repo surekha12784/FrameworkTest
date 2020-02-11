@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2431" started-at="2020-02-05T04:33:27Z" finished-at="2020-02-05T04:33:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2431" started-at="2020-02-05T04:33:27Z" finished-at="2020-02-05T04:33:29Z">
+      <class name="RestAssured.Oauth2tokentest">
+        <test-method status="PASS" signature="oauthtest()[pri:0, instance:RestAssured.Oauth2tokentest@548a9f61]" name="oauthtest" duration-ms="2406" started-at="2020-02-05T04:33:27Z" finished-at="2020-02-05T04:33:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oauthtest -->
+      </class> <!-- RestAssured.Oauth2tokentest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
