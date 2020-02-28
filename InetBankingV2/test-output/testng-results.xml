@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="10605" started-at="2020-01-30T00:07:04Z" finished-at="2020-01-30T00:07:15Z">
+  <suite name="Suite" duration-ms="16244" started-at="2020-02-24T21:14:57Z" finished-at="2020-02-24T21:15:13Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="10605" started-at="2020-01-30T00:07:04Z" finished-at="2020-01-30T00:07:15Z">
+    <test name="Test" duration-ms="16244" started-at="2020-02-24T21:14:57Z" finished-at="2020-02-24T21:15:13Z">
       <class name="com.inetbanking.testCases.TC_LoginDDT">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT@343f4d3d]" name="setUp" is-config="true" duration-ms="3072" started-at="2020-01-30T00:07:04Z" finished-at="2020-01-30T00:07:07Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT@343f4d3d]" name="setUp" is-config="true" duration-ms="5610" started-at="2020-02-24T21:14:57Z" finished-at="2020-02-24T21:15:03Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT@343f4d3d]" name="loginDDT" duration-ms="3283" started-at="2020-01-30T00:07:08Z" data-provider="LoginData" finished-at="2020-01-30T00:07:12Z">
+        <test-method status="PASS" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT@343f4d3d]" name="loginDDT" duration-ms="4413" started-at="2020-02-24T21:15:05Z" data-provider="LoginData" finished-at="2020-02-24T21:15:09Z">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method status="FAIL" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT@343f4d3d]" name="loginDDT" duration-ms="1638" started-at="2020-01-30T00:07:12Z" data-provider="LoginData" finished-at="2020-01-30T00:07:13Z">
+        <test-method status="FAIL" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT@343f4d3d]" name="loginDDT" duration-ms="2369" started-at="2020-02-24T21:15:09Z" data-provider="LoginData" finished-at="2020-02-24T21:15:11Z">
           <params>
             <param index="0">
               <value>
@@ -50,21 +50,21 @@
           <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
               <![CDATA[unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=79.0.3945.130): User or Password is not valid
+  (Session info: chrome=80.0.3987.122): User or Password is not valid
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-MDKUKL6', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+System info: host: 'DESKTOP-MDKUKL6', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\sourish\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53984}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 642dcb73f54216bf7d7d60ee600cc9b6]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\sourish\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51675}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cdd4c6336a388248d22fee5dcee0923a]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=79.0.3945.130): User or Password is not valid
+  (Session info: chrome=80.0.3987.122): User or Password is not valid
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-MDKUKL6', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+System info: host: 'DESKTOP-MDKUKL6', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\sourish\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53984}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 642dcb73f54216bf7d7d60ee600cc9b6
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\sourish\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51675}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cdd4c6336a388248d22fee5dcee0923a
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
@@ -107,7 +107,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method status="FAIL" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT@343f4d3d]" name="loginDDT" duration-ms="1386" started-at="2020-01-30T00:07:13Z" data-provider="LoginData" finished-at="2020-01-30T00:07:15Z">
+        <test-method status="FAIL" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT@343f4d3d]" name="loginDDT" duration-ms="1601" started-at="2020-02-24T21:15:11Z" data-provider="LoginData" finished-at="2020-02-24T21:15:13Z">
           <params>
             <param index="0">
               <value>
@@ -123,21 +123,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
               <![CDATA[unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=79.0.3945.130): User or Password is not valid
+  (Session info: chrome=80.0.3987.122): User or Password is not valid
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-MDKUKL6', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+System info: host: 'DESKTOP-MDKUKL6', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\sourish\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53984}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 642dcb73f54216bf7d7d60ee600cc9b6]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\sourish\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51675}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cdd4c6336a388248d22fee5dcee0923a]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=79.0.3945.130): User or Password is not valid
+  (Session info: chrome=80.0.3987.122): User or Password is not valid
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-MDKUKL6', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+System info: host: 'DESKTOP-MDKUKL6', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\sourish\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53984}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 642dcb73f54216bf7d7d60ee600cc9b6
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\sourish\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51675}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cdd4c6336a388248d22fee5dcee0923a
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
@@ -180,7 +180,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT@343f4d3d]" name="TearDown" is-config="true" duration-ms="98" started-at="2020-01-30T00:07:15Z" finished-at="2020-01-30T00:07:15Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT@343f4d3d]" name="TearDown" is-config="true" duration-ms="166" started-at="2020-02-24T21:15:13Z" finished-at="2020-02-24T21:15:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->

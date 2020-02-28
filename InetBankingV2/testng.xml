@@ -5,13 +5,10 @@
 <listener class-name="com.inetbanking.utilities.Reporting"></listener>
 </listeners> 
   <test thread-count="5" name="Test">
- 
-  <parameter name="browser" value="chrome"></parameter>
- 
- 
+   <parameter name="browser" value="chrome"></parameter>
+   
     <classes>
-    
-      <class name="com.inetbanking.testCases.TC_LoginDDT"/>
+        <class name="com.inetbanking.testCases.TC_LoginDDT"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
