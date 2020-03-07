@@ -9,9 +9,7 @@ public class plainjavatest2 {
 		this.name=name1;
 		this.pjt=p;
 		
-		
 	}
-	
 	public String getName() {
 		return name;
 	}
