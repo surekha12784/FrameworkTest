@@ -5,6 +5,7 @@ public class LinkedListtest1 {
 	
 	public static void main(String[] args){
 		LinkedList<String> list1=new LinkedList<String>();
+		//adding elements to the list
 		list1.add("s");
 		list1.add("u");
 		list1.add("r");

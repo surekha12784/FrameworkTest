@@ -10,5 +10,14 @@
     <classes>
         <class name="com.inetbanking.testCases.TC_LoginDDT"/>
     </classes>
+    
+  </test> <!-- Test -->
+   <test thread-count="5" name="Test1">
+   <parameter name="browser" value="ie"></parameter>
+   
+    <classes>
+        <class name="com.inetbanking.testCases.TC_LoginDDT"/>
+    </classes>
+    
   </test> <!-- Test -->
 </suite> <!-- Suite -->

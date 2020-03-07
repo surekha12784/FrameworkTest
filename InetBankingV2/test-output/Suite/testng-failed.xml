@@ -10,7 +10,7 @@
       <class name="com.inetbanking.testCases.TC_LoginDDT">
         <methods>
           <include name="setUp"/>
-          <include name="loginDDT" invocation-numbers="1 2"/>
+          <include name="loginDDT" invocation-numbers="0 1 2"/>
           <include name="TearDown"/>
         </methods>
       </class> <!-- com.inetbanking.testCases.TC_LoginDDT -->
