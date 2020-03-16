@@ -10,14 +10,9 @@ public class DataTest {
 		@Test
 	public void test(){
 			
-	System.setProperty("webdriver.chrome.driver", arg1);		
+	System.setProperty("webdriver.chrome.driver","C:\\Users\\sourish\\Desktop\\exceldata.xls");		
 	driver=new ChromeDriver();
-	
-		
-		
-		
-	}
-	
+		}
 	
 	public static void main(String[] args){
 		DataTest t=new DataTest();

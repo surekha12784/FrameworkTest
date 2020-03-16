@@ -1,4 +1,4 @@
-package TestProject.ApacheAPITesting;
+package com.qa.base;
 
 import java.io.IOException;
 import org.apache.http.HttpResponse;

@@ -1,4 +1,4 @@
-package TestProject.ApacheAPITesting;
+package com.qa.base;
 
 import static org.junit.Assert.assertTrue;
 

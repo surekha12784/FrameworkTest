@@ -1,15 +1,20 @@
 
 public class Poweroftwo {
-   public void isPowerOfTwo(int n) {
-	   
-	  System.out.println((int)Math.pow(2, n));
-        
-    }
-   public static void main(String[] args){
-	   int a=3;
+	 boolean t;
+   public boolean isPowerOfTwo(int n) {
+	  
+	 n=n&(n-1);
+	 System.out.println("n:="+n);
+	   return true;
+	    
+	}
+   
+public static void main(String[] args){
+	   int a=16;
 	   
 	   Poweroftwo i=new Poweroftwo();
-	   i.isPowerOfTwo(a);
+	   boolean b=i.isPowerOfTwo(a);
+	   System.out.println(b);
 	   
    }
 

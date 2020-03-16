@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="3611" started-at="2020-02-27T22:14:55Z" finished-at="2020-02-27T22:14:58Z">
+  <suite name="Default suite" duration-ms="963" started-at="2020-03-12T21:09:59Z" finished-at="2020-03-12T21:10:00Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="3611" started-at="2020-02-27T22:14:55Z" finished-at="2020-02-27T22:14:58Z">
-      <class name="TestProject.ApacheAPITesting.test3">
-        <test-method status="PASS" signature="DeleTest()[pri:0, instance:TestProject.ApacheAPITesting.test3@59fa1d9b]" name="DeleTest" duration-ms="1671" started-at="2020-02-27T22:14:55Z" finished-at="2020-02-27T22:14:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DeleTest -->
-        <test-method status="PASS" signature="getTest()[pri:0, instance:TestProject.ApacheAPITesting.test3@59fa1d9b]" name="getTest" duration-ms="1492" started-at="2020-02-27T22:14:56Z" finished-at="2020-02-27T22:14:58Z">
+    <test name="Default test" duration-ms="963" started-at="2020-03-12T21:09:59Z" finished-at="2020-03-12T21:10:00Z">
+      <class name="com.qa.tests.GetAPITest">
+        <test-method status="PASS" signature="getTest()[pri:0, instance:com.qa.tests.GetAPITest@523884b2]" name="getTest" duration-ms="947" started-at="2020-03-12T21:09:59Z" finished-at="2020-03-12T21:10:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTest -->
-        <test-method status="PASS" signature="putTest()[pri:0, instance:TestProject.ApacheAPITesting.test3@59fa1d9b]" name="putTest" duration-ms="401" started-at="2020-02-27T22:14:58Z" finished-at="2020-02-27T22:14:58Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GetAPITest@523884b2]" name="setUp" is-config="true" duration-ms="0" started-at="2020-03-12T21:09:59Z" finished-at="2020-03-12T21:09:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- putTest -->
-      </class> <!-- TestProject.ApacheAPITesting.test3 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- setUp -->
+      </class> <!-- com.qa.tests.GetAPITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
